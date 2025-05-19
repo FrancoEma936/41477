@@ -1,0 +1,7 @@
+print("Hola Mundo");
+return;
+if (1) {
+    print("Condición verdadera");
+} else {
+    print("Condición falsa");
+}

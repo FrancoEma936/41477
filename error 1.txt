@@ -1,0 +1,6 @@
+print("Falta punto y coma")
+if (0 {
+    print("Error en paréntesis");
+} else {
+    print("Este bloque está bien");
+}

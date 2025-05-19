@@ -1,0 +1,7 @@
+if (0) {
+    print("Este bloque no se ejecuta");
+} else {
+    print("Se ejecuta el else");
+}
+print("Programa finalizado");
+return;
