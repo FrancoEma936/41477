@@ -7,7 +7,7 @@ instrucciones
     | instrucciones instruccion
     ;
 
-instruccion
+instruccion 
     : decision
     | sentencia
     ;
@@ -44,18 +44,17 @@ caracteres
     ;
 
 caracter
-    : letra
-    | digito
+    : LETRA
+    | DIGITO
     | simbolo
     ;
 
-letra
-    : 'a'-'z'
-    |'A'-'Z'
+LETRA
+    :[a-zA-Z]
     ;
 
-digito
-    : '0'-'9'
+DIGITO
+    :[0-9]
     ;
 
 simbolo
